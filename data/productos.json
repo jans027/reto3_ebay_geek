@@ -1,0 +1,270 @@
+{
+  "garden": [
+    {
+      "id": 1,
+      "name": "Corn Kernels - Frozen",
+      "description": "Nephrotic syndrome w diffuse mesangial prolif glomrlneph",
+      "image": "https://picsum.photos/300?random=1",
+      "price": "$6.66",
+      "category": "garden"
+    },
+    {
+      "id": 2,
+      "name": "Chicken - Leg / Back Attach",
+      "description": "Unsp pedl cyclst injured in collision w oth pedl cyc in traf",
+      "image": "https://picsum.photos/300?random=2",
+      "price": "$4.31",
+      "category": "garden"
+    },
+    {
+      "id": 10,
+      "name": "Spinach - Baby",
+      "description": "Stable burst fx third thor vertebra, init for opn fx",
+      "image": "https://picsum.photos/300?random=3",
+      "price": "$4.36",
+      "category": "garden"
+    },
+    {
+      "id": 12,
+      "name": "Butter - Unsalted",
+      "description": "Other chronic nonsuppurative otitis media",
+      "image": "https://picsum.photos/300?random=4",
+      "price": "$5.21",
+      "category": "garden"
+    },
+    {
+      "id": 14,
+      "name": "Capers - Ox Eye Daisy",
+      "description": "Enteropathic arthropathies, ankle and foot",
+      "image": "https://picsum.photos/300?random=5",
+      "price": "$3.88",
+      "category": "garden"
+    },
+    {
+      "id": 16,
+      "name": "Cheese - Marble",
+      "description": "Broken internal right knee prosthesis, initial encounter",
+      "image": "https://picsum.photos/300?random=6",
+      "price": "$0.20",
+      "category": "garden"
+    },
+    {
+      "id": 17,
+      "name": "Soup - Campbells Chili Veg",
+      "description": "Displ bimalleol fx unsp low leg, 7thG",
+      "image": "https://picsum.photos/300?random=7",
+      "price": "$8.43",
+      "category": "garden"
+    },
+    {
+      "id": 18,
+      "name": "Jam - Strawberry, 20 Ml Jar",
+      "description": "External constriction, left knee, subsequent encounter",
+      "image": "https://picsum.photos/300?random=8",
+      "price": "$5.66",
+      "category": "garden"
+    },
+    {
+      "id": 22,
+      "name": "Beef - Tenderloin Tails",
+      "description": "Oth fracture of upper end of unsp ulna, init for clos fx",
+      "image": "https://picsum.photos/300?random=9",
+      "price": "$3.40",
+      "category": "garden"
+    },
+    {
+      "id": 25,
+      "name": "Cheese - Boursin, Garlic / Herbs",
+      "description": "Disp fx of prox phalanx of r rng fngr, 7thD",
+      "image": "https://picsum.photos/300?random=10",
+      "price": "$3.22",
+      "category": "garden"
+    },
+    {
+      "id": 28,
+      "name": "Beef - Ox Tail, Frozen",
+      "description": "Adverse effect of expectorants, sequela",
+      "image": "https://picsum.photos/300?random=11",
+      "price": "$8.94",
+      "category": "garden"
+    }
+  ],
+  "electronics": [
+    {
+      "id": 4,
+      "name": "Beef - Short Loin",
+      "description": "Displacement of internal prosth dev/grft",
+      "image": "https://picsum.photos/300?random=12",
+      "price": "$5.99",
+      "category": "electronics"
+    },
+    {
+      "id": 27,
+      "name": "Bread - Malt",
+      "description": "Unsp fb in esophagus causing compression of trachea, init",
+      "image": "https://picsum.photos/300?random=13",
+      "price": "$7.54",
+      "category": "electronics"
+    },
+    {
+      "id": 26,
+      "name": "Vinegar - Champagne",
+      "description": "Loose body in knee, right knee",
+      "image": "https://picsum.photos/300?random=14",
+      "price": "$2.06",
+      "category": "electronics"
+    },
+    {
+      "id": 15,
+      "name": "Pastry - Lemon Danish - Mini",
+      "description": "Diseases of pulp and periapical tissues",
+      "image": "https://picsum.photos/300?random=15",
+      "price": "$0.14",
+      "category": "electronics"
+    },
+    {
+      "id": 7,
+      "name": "Eel - Smoked",
+      "description": "Major laceration of left vertebral artery",
+      "image": "https://picsum.photos/300?random=16",
+      "price": "$2.46",
+      "category": "electronics"
+    },
+    {
+      "id": 8,
+      "name": "Red Currants",
+      "description": "Underdosing of appetite depressants, sequela",
+      "image": "https://picsum.photos/300?random=17",
+      "price": "$9.38",
+      "category": "electronics"
+    },
+    {
+      "id": 9,
+      "name": "Veal - Osso Bucco",
+      "description": "Inj ulnar artery at wrist and hand level of unsp arm, init",
+      "image": "https://picsum.photos/300?random=18",
+      "price": "$1.87",
+      "category": "electronics"
+    },
+    {
+      "id": 11,
+      "name": "Momiji Oroshi Chili Sauce",
+      "description": "Unstable burst fracture of fourth lumbar vertebra",
+      "image": "https://picsum.photos/300?random=19",
+      "price": "$7.23",
+      "category": "electronics"
+    },
+    {
+      "id": 21,
+      "name": "Glaze - Apricot",
+      "description": "Nondisp fx of lateral malleolus of unsp fibula, 7thB",
+      "image": "https://picsum.photos/300?random=20",
+      "price": "$1.31",
+      "category": "electronics"
+    }
+  ],
+  "collectibles": [
+    {
+      "id": 3,
+      "name": "Sugar - Invert",
+      "description": "Legal intervnt w inj by mch gun, law enforc offl inj, sqla",
+      "image": "https://picsum.photos/300?random=21",
+      "price": "$4.65",
+      "category": "collectibles"
+    },
+    {
+      "id": 30,
+      "name": "Schnappes - Peach, Walkers",
+      "description": "Traum subrac hem w LOC of 31-59 min, sequela",
+      "image": "https://picsum.photos/300?random=22",
+      "price": "$1.55",
+      "category": "collectibles"
+    },
+    {
+      "id": 29,
+      "name": "Eggplant - Baby",
+      "description": "Disp fx of epiphy (separation) (upper) of unsp femr, 7thF",
+      "image": "https://picsum.photos/300?random23",
+      "price": "$0.45",
+      "category": "collectibles"
+    },
+    {
+      "id": 5,
+      "name": "Yogurt - Peach, 175 Gr",
+      "description": "Rhinophyma",
+      "image": "https://picsum.photos/300?random=24",
+      "price": "$4.69",
+      "category": "collectibles"
+    },
+    {
+      "id": 6,
+      "name": "Rambutan",
+      "description": "Injury of msl/tnd lng flexor muscle of toe at ank/ft level",
+      "image": "https://picsum.photos/300?random=25",
+      "price": "$7.86",
+      "category": "collectibles"
+    },
+    {
+      "id": 13,
+      "name": "Wine - Red, Gallo, Merlot",
+      "description": "Burn of third degree of lower back, sequela",
+      "image": "https://picsum.photos/300?random=26",
+      "price": "$2.38",
+      "category": "collectibles"
+    },
+    {
+      "id": 23,
+      "name": "Ice - Clear, 300 Lb For Carving",
+      "description": "Oth physeal fracture of upper end of radius, unsp arm, init",
+      "image": "https://picsum.photos/300?random=27",
+      "price": "$4.48",
+      "category": "collectibles"
+    },
+    {
+      "id": 24,
+      "name": "Pesto - Primerba, Paste",
+      "description": "Displaced fracture of medial condyle of unspecified femur",
+      "image": "https://picsum.photos/300?random=28",
+      "price": "$6.29",
+      "category": "collectibles"
+    },
+    {
+      "id": 19,
+      "name": "Glass - Wine, Plastic, Clear 5 Oz",
+      "description": "Hypothermia following anesthesia, subsequent encounter",
+      "image": "https://picsum.photos/300?random=29",
+      "price": "$3.95",
+      "category": "collectibles"
+    },
+    {
+      "id": 20,
+      "name": "Transfer Sheets",
+      "description": "Nondisp fx of unsp ulna styloid pro, 7thP",
+      "image": "https://picsum.photos/300?random=30",
+      "price": "$2.37",
+      "category": "collectibles"
+    }
+  ],
+  "carritoCompras": [
+    {
+      "id": 4,
+      "name": "Beef - Short Loin",
+      "description": "Displacement of internal prosth dev/grft",
+      "image": "https://picsum.photos/300?random=12",
+      "price": "$5.99",
+      "category": "electronics"
+    },
+    {
+      " seleccion": "{\"id\":1,\"name\":\"Corn Kernels - Frozen\",\"description\":\"Nephrotic syndrome w diffuse mesangial prolif glomrlneph\",\"image\":\"https://picsum.photos/300?random=1\",\"price\":\"$6.66\",\"category\":\"garden\"}",
+      "id": 5
+    },
+    {
+      " seleccion": "{\"id\":4,\"name\":\"Beef - Short Loin\",\"description\":\"Displacement of internal prosth dev/grft\",\"image\":\"https://picsum.photos/300?random=12\",\"price\":\"$5.99\",\"category\":\"electronics\"}",
+      "id": 6
+    },
+    {
+      " seleccion": "{\"id\":1,\"name\":\"Corn Kernels - Frozen\",\"description\":\"Nephrotic syndrome w diffuse mesangial prolif glomrlneph\",\"image\":\"https://picsum.photos/300?random=1\",\"price\":\"$6.66\",\"category\":\"garden\"}",
+      "id": 7
+    }
+  ]
+}

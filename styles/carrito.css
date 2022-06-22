@@ -1,0 +1,18 @@
+:root {
+    --neutralColor: #03162C;
+    --brandBlue: #184A81;
+    --font: font-family: 'Inter', sans-serif;
+}
+
+.carritoCompras{
+
+    /* border: 1px solid red; */
+}
+.card{
+    margin: 0 auto;
+    margin-bottom: 10em;
+    /* border: 1px solid red; */
+}
+.tarjetaCarrito{
+    margin-bottom: 5em;
+}

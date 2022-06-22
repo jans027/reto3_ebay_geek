@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Ebay</title>
+</head>
+
+<body>
+    <header>
+        <!-- ................................................. -->
+        <div class="navBar">
+            <div class="topNavigation">
+                <div class="logoEbay">
+                    <img src="images/EBay_logo.svg" alt="">
+                </div>
+                <div class="search">
+                    <h2>All Categories</h2>
+                    <input type="search">
+                </div>
+                <div class="icons">
+                    <img src="images/favorito.svg" alt="">
+                    <img src="images/perfil.svg" alt="">
+                    <img id="carrito" type="button" src="images/bolsa.svg" alt="">
+                </div>
+            </div>
+            <div class="categories">
+                <a href="index.html">Home</a>
+                <button id="electro" type="button">Electronics</button>
+                <button id="HomeGarden" type="button" id="garden">Home & Garden</button>
+                <button id="collectibles" type="button" id="collectibles">Collectibles & Art</button>
+            </div>
+        </div>
+    </header>
+    <!-- .................................................... -->
+
+    <div class="tarjetasCategoria">
+        <div class="containerTarjetas"></div>
+    </div>
+    
+
+    <div id="verMas" class="detalleProducto">
+    </div>
+
+    <section id="containerCategorias">
+        <div id="containerIndex">
+            <div class="tiulosDestacados">
+                <h2 class="featured">Featured Products</h2>
+                <h4 class="popularProducts">Popular products right now</h4>
+            </div>
+            <div class="imagenesPrincipales">
+                <p id="demo"></p>
+                <img class="btn1" id="btn1" type="button" src="./images/thumbnailzapatos.png" alt="">
+                <img class="btn2" src="./images/imageimagenDetalle.png" alt="">
+            </div>
+            <!-- ................................................ -->
+
+            <div class="subCategoriaTitulo">
+                <h3>Shop by Categories</h3>
+                <h4>Ver Mas</h4>
+            </div>
+            <div class="fotosCirculares">
+                <img class="subCatImg1" src="./images/thumbnailcat1.png" alt="">
+                <img class="subCatImg2" src="./images/thumbnailcat2.png" alt="">
+                <img class="subCatImg3" src="./images/thumbnailcat3 (1).png" alt="">
+                <img class="subCatImg4" src="./images/thumbnailcat4.png" alt="">
+                <img class="subCatImg5" src="./images/thumbnailcats5.png" alt="">
+                <img class="subCatImg6" src="./images/thumbnailcat7.png" alt="">
+            </div>
+
+
+            <!-- ...................................................... -->
+
+            <div class="subCategoriaTitulo">
+                <h3>Ending soon</h3>
+                <h4>Ver Mas</h4>
+            </div>
+            <div class="tarjetasFinal">
+                <div class="card">
+                    <img src="./images/thumbnailfot10.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur unde non. </p>
+                    <button class="price">$ 10.50</button>
+                </div>
+                <div class="card">
+                    <img src="./images/thumbnailcats5.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur unde non. </p>
+                    <button class="price">$ 10.50</button>
+                </div>
+                <div class="card">
+                    <img src="./images/thumbnailfdgsdrg.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur unde non. </p>
+                    <button class="price">$ 10.50</button>
+                </div>
+                <div class="card">
+                    <img src="./images/thumbnailu8yum,.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur unde non. </p>
+                    <button class="price">$ 10.50</button>
+                </div>
+                <div class="card">
+                    <img src="./images/thumbnailghjhfryted b.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur unde non. </p>
+                    <button class="price">$ 10.50</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <template id="templateTarjetas">
+        <div class="cardCategoria">
+            <img src="" alt="">
+            <p> </p>
+            <h5></h5>
+            <button class="verMas"> </button>
+        </div>
+    </template>
+
+    <section class="detalles">
+        <div class="detallesProduct">
+            <div class="imagenDetalle">
+                <img id="imgDetalleProducto" class="" src="" alt="">
+            </div>
+
+            <div class="DetalleProductos">
+                <p id="textoDetalle"></p>
+                <h4 id="precioDetalle"></h4>
+                <h5>Sizes</h5>
+                <ul>
+                    <li>5</li>
+                    <li>5.5</li>
+                    <li>6</li>
+                    <li>6.5</li>
+                    <li>7</li>
+                    <li>7.5</li>
+                    <li>8</li>
+                    <li>8.5</li>
+                    <li>9</li>
+                    <li>9.5</li>
+                    <li>10</li>
+                    <li>10.5</li>
+                    <li>11</li>
+                    <li>11.5</li>
+                    <li>12</li>
+                </ul>
+                <div class="botonesDetalle">
+                    <button class="buyNow">
+                        Buy Now
+                    </button>
+                    <button type="button" class="addBag">
+                        Add to Bag
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="carritoCompras">
+    </div>
+
+    <template class="templateCarrito">
+        <div class="card mb-3" style="width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                        <button type="button" class="btn btn-primary botonVaciar">Vaciar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>

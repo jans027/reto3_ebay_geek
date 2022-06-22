@@ -1,0 +1,173 @@
+@import"categories.css";
+@import"detalles.css";
+@import"carrito.css";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --neutralColor: #03162C;
+    --brandBlue: #184A81;
+    --font: font-family: 'Inter', sans-serif;
+}
+
+/* .................barra de navegacion...................... */
+.navBar {
+    width: 100%;
+    height: 144px;
+}
+.topNavigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 96px;
+    background-color: var(--brandBlue);
+}
+.logoEbay{
+    width: 120px;
+    height: 48px;
+
+}
+.logoEbay img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 32px;
+    border-radius: 24px;
+    border: 1px solid #ffffff;
+}
+.search input{
+    display: flex;
+    flex:content;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 24px 24px 0;
+    border: none;
+}
+.search  h2{
+    color: #ffffff;
+    font: var(--font);
+    margin:  6px 20px;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90px;
+    height: 30px;
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: .8%;
+    margin: 15px;
+}
+.categories button{
+    color: var(--brandBlue);
+    padding: 8px 16px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    background-color: #ffffff;
+}
+.categories a{
+    color: var(--brandBlue);
+    text-decoration: inline;
+}
+
+.containerCategorias{
+    display: block;
+}
+.tarjetasCategoria{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display:inline;
+}
+.containerTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cardCategoria{
+    width: 320px;
+    padding: 10px;
+    margin: 18px;
+    border-radius: 10px;
+
+}
+.cardCategoria img{
+    border-radius: 10px;
+}
+.cardCategoria p{
+    text-align: center;
+    margin: 8px 0;
+}
+.cardCategoria h5{
+    color: var(--brandBlue);
+}
+.cardCategoria button{
+    display: flex;
+    background-color: var(--brandBlue);
+    border: none;
+    color: #ffffff;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.cardCategoria button:hover{
+    background-color: #184b81da;
+}
+.cardCategoria button:active{
+    transform: scale(0.95);
+}
+.detallesImagenes{
+    display: none;
+}
+.DetalleProductos{
+    display: none;
+}
+.carritoCompras{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

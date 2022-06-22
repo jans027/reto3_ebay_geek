@@ -1,0 +1,156 @@
+:root {
+    --neutralColor: #03162C;
+    --brandBlue: #184A81;
+    --font: font-family: 'Inter', sans-serif;
+}
+
+
+.tituloRuta{
+    width: 75%;
+    margin: 0 auto;
+    color: var(--brandBlue);
+    padding: 60px 0 20px;
+}
+.detallesProduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    /* height: 400px; */
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.imagenDetalle{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.imagenDetalle img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 12px;
+    /* border: 1px solid red; */
+}
+
+.DetalleProductos{
+    width: 45%;
+    border-radius: 10px;
+    /* border: 1px solid rgb(7, 51, 146); */
+}
+.DetalleProductos ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 20px;
+    /* border: 1px solid red; */
+}
+.DetalleProductos ul li{
+    list-style: none;
+    border: 1px solid #03162c57;
+    width: 40px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 5px;
+    margin: 3px;
+    cursor: pointer;
+    
+}
+.DetalleProductos ul li:hover{
+    background-color: #03162c36;
+}
+.DetalleProductos ul li:active{
+    background-color: #03162c3b;
+}
+.DetalleProductos p{
+    width: 80%;
+    padding: 20px;
+    /* border: 1px solid red; */
+
+}
+.DetalleProductos h5{
+    color: #03162cc0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: -13px;
+}
+.DetalleProductos h4{
+    color: #184b81bd;
+    padding: 20px 20px;
+}
+.DetalleProductos button{
+    cursor: pointer;
+}
+.DetalleProducto button:hover{
+    background-color:#184b81d3 ;
+}
+
+.botonesDetalle{
+    display: flex;
+    margin-top: 100px;
+}
+.botonesDetalle button{
+    text-align: center;
+    padding: 8px 40px;
+    margin: 0 20px;
+    border: none;
+    background-color: var(--brandBlue);
+    border-radius: 5px;
+    color: #ffffff;
+}
+.botonesDetalle button:hover{
+    background-color:#184b81d3;
+}
+
+.subCategoriaTitulo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 0 30px;
+    width: 75%;
+    margin: 0 auto;
+}
+.subCategoriaTitulo h3{
+    margin-right:20px;
+}
+.subCategoriaTitulo h4{
+    color: var(--brandBlue);
+    
+}
+.fotosCirculares{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+}
+.fotosCirculares img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    object-position: center center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.tarjetasFinal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.card{
+    width: 180px;
+    height: 270px;
+}
+.card img{
+    width: 180px;
+    height: 150px;
+}
+.card button{
+    color: var(--brandBlue);
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
